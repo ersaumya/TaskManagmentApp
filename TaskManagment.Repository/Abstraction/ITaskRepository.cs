@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TaskManagment.Repository.Abstraction
 {
-    public interface ITaskRepository:IGenericRepository<Task>
+    public interface ITaskRepository:IGenericRepository<Core.Entities.Task>
     {
     }
 }

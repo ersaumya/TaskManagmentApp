@@ -7,7 +7,7 @@ namespace TaskManagment.Repository.Abstraction
 {
     public interface IGenericRepository<T> where T:class
     {
-        Task<T> Get(int Id);
+        Task<T> Get(int id);
         Task<IEnumerable<T>> GetAll();
         Task<int> Add(T entity);
         Task<int> Delete(int id);
