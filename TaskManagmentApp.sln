@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Api", "TaskMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Core", "TaskManagment.Core\TaskManagment.Core.csproj", "{9459DA5B-A3DD-4C34-8636-BC121FD93AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Repository", "TaskManagment.Repository\TaskManagment.Repository.csproj", "{80A40A41-1EA4-4D8E-BCA2-BD332799C0FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Application", "TaskManagment.Repository\TaskManagment.Application.csproj", "{80A40A41-1EA4-4D8E-BCA2-BD332799C0FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagment.Infrastructure", "TaskManagment.Infrastructure\TaskManagment.Infrastructure.csproj", "{CD6152E3-6E30-4C47-BB6F-FCE02AFE9989}"
 EndProject

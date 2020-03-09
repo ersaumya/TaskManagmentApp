@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TaskManagment.Application;
 using TaskManagment.Infrastructure;
 
 namespace TaskManagment.Api
@@ -26,6 +27,7 @@ namespace TaskManagment.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplication();
             services.AddInfrastructure();
             services.AddControllers();
         }
