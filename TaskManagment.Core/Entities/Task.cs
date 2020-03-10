@@ -15,7 +15,6 @@ namespace TaskManagment.Core.Entities
 
         public TaskStatus Status { get; set; }
 
-        public int MyProperty { get; set; }
 
         public DateTime DueDate { get; set; }
 

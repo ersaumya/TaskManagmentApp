@@ -6,7 +6,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskManagment.Repository.Abstraction;
+using TaskManagment.Application.Abstraction;
+
 
 namespace TaskManagment.Infrastructure.Implementation
 {

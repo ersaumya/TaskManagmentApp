@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskManagment.Repository.Abstraction
+namespace TaskManagment.Application.Abstraction
 {
     public interface IUnitOfWork
     {

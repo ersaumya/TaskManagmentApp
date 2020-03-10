@@ -15,6 +15,8 @@ using TaskManagment.Infrastructure;
 
 namespace TaskManagment.Api
 {
+   
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -27,9 +29,14 @@ namespace TaskManagment.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddApplication();
             services.AddInfrastructure();
             services.AddControllers();
+            services.AddOpenApiDocument(config =>
+            {
+                config.Title = "Task Management API";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +46,10 @@ namespace TaskManagment.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseOpenApi();
+
+            app.UseSwaggerUi3();
 
             app.UseHttpsRedirection();
 

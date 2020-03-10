@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using TaskManagment.Application.Tasks.Dto;
 using TaskManagment.Application.Tasks.Queries;
-using TaskManagment.Repository.Abstraction;
+using TaskManagment.Application.Abstraction;
 
 namespace TaskManagment.Application.Tasks.Handlers
 {

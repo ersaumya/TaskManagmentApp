@@ -6,9 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using TaskManagment.Application.Abstraction;
 using TaskManagment.Application.Tasks.Dto;
 using TaskManagment.Application.Tasks.Queries;
-using TaskManagment.Repository.Abstraction;
+
 
 namespace TaskManagment.Application.Tasks.Handlers
 {

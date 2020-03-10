@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using TaskManagment.Infrastructure.Implementation;
-using TaskManagment.Repository.Abstraction;
+using TaskManagment.Application.Abstraction;
 
 namespace TaskManagment.Infrastructure
 {

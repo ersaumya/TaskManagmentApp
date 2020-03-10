@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagment.Repository.Abstraction
+namespace TaskManagment.Application.Abstraction
 {
     public interface IGenericRepository<T> where T:class
     {

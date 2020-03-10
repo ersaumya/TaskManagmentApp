@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using TaskManagment.Application.Abstraction;
 using TaskManagment.Application.Tasks.Commands;
-using TaskManagment.Repository.Abstraction;
+
 
 namespace TaskManagment.Application.Tasks.Handlers
 {
